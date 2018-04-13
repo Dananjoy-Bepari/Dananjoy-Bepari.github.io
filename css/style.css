@@ -1,0 +1,454 @@
+
+
+boby{
+    margin:0;
+    padding: 0;
+}
+h1{
+    margin:0;
+    padding: 0;
+
+}
+
+
+/************************************/
+
+/**slider section**/
+
+/************************************/
+
+
+.banner-item{
+    position: relative;
+    height: 100vh;
+    background-position:center;
+    background-size: cover;
+    
+}
+.banner-item:before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top:0;
+    left:0;
+}
+.banner-data{
+    padding:0;
+    margin:0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+.banner-data h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 70px;
+
+
+}
+.banner-data p{
+    color:#fff;
+    background-color: #3498DB;
+    display:inline-block;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+
+
+
+
+/************************************/
+
+/**service section**/
+
+/************************************/
+
+
+    
+
+.our-services {
+    text-align: center;
+    margin: 30px 0px;
+    text-transform: uppercase;
+}
+
+.our-services h1 {
+    background-color: #3498DB;
+    color: #fff;
+    padding: 5px 0px;
+    border-radius: 10px;
+}
+
+.service {
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    color: gray;
+    padding: 30px;
+    margin: 15px 0px;
+    transition: .5s;
+    box-shadow: 0px 0px 30px #888;
+}
+
+.service:hover {
+    background-color: #3498db;
+    color: #fff;
+    transition: .5s;
+}
+
+.service .fa {
+    height: 100px;
+    line-height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: #3498db;
+    font-size: 60px;
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: insert 0px 0px 10px #888;
+    margin-bottom: 15px;
+    transition: .5s;
+}
+
+.service:hover .fa {
+    background-color: #fff;
+    color: #3498db;
+    transition: .5s;
+    transform: rotatey(180deg)scale(1.3);
+}
+
+.service h5 {
+    text-transform: uppercase;
+    color: #222;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.service:hover h5 {
+    color: #fff;
+    transition: .5s;
+}
+
+/************************************/
+
+/**portfolio section**/
+
+/************************************/
+
+.portf {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.portf h1 {
+    color: #3498db;
+}
+
+.controls ul {
+    margin: o;
+    padding: 0;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.controls ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 25px;
+    background: #3498DB;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.item {
+    position: relative;
+    margin: 15px 0px;
+}
+
+.item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: .3s;
+    opacity: 0;
+}
+
+.item:hover:before {
+    opacity: 1;
+    transition: .3s;
+}
+
+.item-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: -3s;
+}
+
+.item-button .fa {
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+    background: #fff;
+    color: #222;
+    transition: -3s;
+    opacity: 0;
+}
+
+.item:hover .item-button .fa {
+    opacity: 1;
+    transition: -3s;
+}
+
+/************************************/
+
+/**pricing table  section**/
+
+/************************************/
+
+.pricing {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.pricing-table {
+    background-color: #f1f1f1;
+}
+
+.pricing-table .level {
+    background-color: #e4e4e4;
+    text-align: center;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+
+.pricing-table .price {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+.pricing-table .price span{
+    font-size: 18px;
+
+}
+.pricing-table .options{
+    margin: 0;
+    padding: 0;
+}
+.pricing-table .options li{
+    list-style: none;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 18px;
+    color: #222;
+    font-weight: 600;
+}
+.pricing-table .options li span{
+    color: gray;
+    font-weight: 400;
+}
+.pricing-table .pricing-btn{
+    text-align: center;
+    padding: 20px 0px;
+}
+.pricing-table .pricing-btn .btn-primary{
+    padding: 10px 25px;
+    border-radius:40px;
+    background-color:transparent;
+    border: 1px solid #3498db;
+    color: #3498db;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px #3498DB;
+    transition: .3s;
+    
+  
+}
+.pricing-table .pricing-btn .btn-primary:hover{
+    background-color: #3498db;
+    color: #fff;
+    transition: .3s;
+    
+   
+
+}
+.pricing-table:hover,
+.pricing-table.active{
+    box-shadow: 0px 0px 20px #888;
+    transition: .3s;
+    
+}
+.pricing-table:hover .level,
+
+.pricing-table.active .level{
+    background-color: #3498db;
+    color: #fff;
+    transition: .3s;
+}
+
+.pricing-table:hover .level{
+
+}
+
+.pricing-table.active .pricing-btn .btn-primary{
+    background-color: #3498db;
+    color:#fff;
+    transition: .3s;
+    
+
+}
+
+
+
+
+
+/************************************/
+
+/**team  section**/
+
+/************************************/
+
+.our-team {
+    text-align: center;
+    margin: 30px 0px;
+    text-transform: uppercase;
+}
+
+.team {
+    margin: 15px 0px;
+}
+
+.team .team-item {
+    position: relative;
+    display: inline-block;
+}
+
+.team .team-item .item-data {
+    position: absolute;
+    bottom: -65px;
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+    text-align: center;
+    color: #fff;
+    background-color: #3498DB;
+    text-transform: uppercase;
+}
+
+.team .team-item:hover .item-data {
+    bottom: 0px;
+    transition: .3s;
+}
+
+.team .team-item .item-data .name-pos h5 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.team .team-item .item-data .name-pos p {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.team .team-item .item-data .social .fa {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fff;
+    color: #3498db;
+}
+
+.team .team-item .item-data .social .fa:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+/************************************/
+
+/**achievement  section**/
+
+/************************************/
+
+.ach {
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.ach:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ach-item {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.ach-item .fa {
+    height: 75px;
+    line-height: 75px;
+    width: 75px;
+    text-align: center;
+    background-color: #3498db;
+    margin-bottom: 10px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+.ach-item h5 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.ach-item p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/************************************/
+
+/**contract  section**/
+
+/************************************/
+
+.contact {
+    text-align: center;
+}
+
+.contact-bg {
+    margin: 30px 0px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0px 0px 5px #f1f1f1;
+}
